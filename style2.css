@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-.Navigation {
+nav{
     display: flex;
     position: fixed;
     background-color: white;
@@ -42,8 +42,8 @@
     justify-content: center;
 }
 
-.navigation_text li {
-    list-style: none;
+.navigation_text a {
+    text-decoration: none;
     margin-right: 40px;
     color: rgba(60, 19, 28, 255);
     font-size: 20px;
